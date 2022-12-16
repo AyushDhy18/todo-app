@@ -3,9 +3,9 @@ import UI from './UI';
 
 
 function App() {
-  return (<>
+  return (<div>
     <UI></UI>
-  </>
+  </div>
   );
 }
 

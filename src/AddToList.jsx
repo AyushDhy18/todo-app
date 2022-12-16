@@ -26,7 +26,7 @@ const AddToList = ({ handleRemove, list, addTask, setTodo }) => {
             id="Add"
             name="Add"
             type="text"
-            className="border border-slate-400 rounded-md bg-slate-200 w-96 p-1"
+            className="border border-slate-400 rounded-md bg-slate-200 w-96 sm:w-80 p-1"
             value={userInput}
             onChange={handleChange}
           />

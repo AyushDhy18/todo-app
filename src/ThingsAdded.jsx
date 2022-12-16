@@ -5,7 +5,6 @@ import { MdOutlineDeleteForever } from 'react-icons/md';
 const ThingsAdded = ({ thingsAdded, list, setList, handleTaskRemove, handleToggle, id }) => {
 
 
-  console.log("id is", thingsAdded.id)
   return <div className="flex">
     <div className={"m-1 text-lg text-indigo-500 " + (thingsAdded.complete ? "line-through" : "")} >{thingsAdded.task}</div>
 

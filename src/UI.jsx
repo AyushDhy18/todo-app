@@ -31,7 +31,7 @@ const UI = () => {
 
   console.log('checkbox')
   return (
-    <div>
+    <div className="m-2 border-cyan-700 border-4 rounded-md border-solid bg-blue-100 h-screen sm:w-3/6 w-screen">
       <h1 className="text-xl font-extrabold text-indigo-800 p-3">
         Things to get done
 			</h1>
